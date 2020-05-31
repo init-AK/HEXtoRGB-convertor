@@ -1,0 +1,143 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: 'Bebas Neue';
+}
+body {
+    max-width: 100vw;
+}
+
+.header {
+    max-width: 100vw;
+    height: 20vh;
+    background: #888888;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight:bold;
+}
+input {
+    padding: 10px;
+    margin: 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 29px;
+    outline: none;
+}
+.form {
+    display: flex;
+    justify-content: center;
+}
+#get-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rgb,#hex {
+    text-align: center;
+    padding: 13px;
+    font-size:30px;
+    text-decoration: inherit;
+    letter-spacing: 0.15rem;
+}
+#hex-res {
+    font-size: 45px;
+    text-align: center;
+    color: #ffffff;
+}
+#hex-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 45vw;
+    margin-top: 15px;
+    width: 10%;
+    background: red;
+}
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    outline: none;
+}
+#bottom {
+    width: 100vw;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    padding:18px;
+}
+.copyright {
+    width: 20vw;
+    position: relative;
+    top:60px;
+    left:78vw;
+    display: flex;
+    justify-content: center;
+    background-color:black;
+}
+.copy-content {
+    font-size: 30px;
+    color: white;
+}
+
+.btn-row {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 200px;
+}
+#RGB {
+    font-size: 50px;
+    letter-spacing: 0.1rem;
+}
+.rgb {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width:22%;
+    position: relative;
+    left: 40vw;
+    background-color: red;
+}
+#copyright {
+    position: relative;
+    top:525px;
+}
+#copyright2 {
+    position: relative;
+    top:130px;
+}
+#hash {
+    font-size: 40px;
+}
+.links {
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 50px;
+    padding:15px;
+}
+#links {
+    position: relative;
+    top:15px;
+    left:29px;
+}
+.link {
+    text-decoration: underline;
+    outline: none;
+    color: #333333;
+    
+}
+.content {
+    position: relative;
+    top:35px;
+}

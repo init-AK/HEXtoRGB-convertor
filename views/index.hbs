@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Colour Convertor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <p class="title">{{title}}</p>
+    </div>
+
+    <div class='links'>
+        <a class='link' href="/">Home</a>
+        <a class='link' href="/rgbtohex">RGB to HEX</a>
+        <a class='link' href="/hextorgb">HEX to RGB</a>
+    </div>
+    <div class="content">
+    <h3 id="rgb">RGB</h3>
+    <div class="form">
+        <form class='submit-form'>
+            <input type="text" placeholder="R" style="width:50px;" id="rgb-1">
+            <input type="text" placeholder="G" style="width:50px;" id="rgb-2">
+            <input type="text" placeholder="B" style="width:50px;" id="rgb-3">
+            <div id="get-container">
+                <button>GET</button>
+            </div>
+        </form>
+    </div>
+    
+    <h3 id="hex">HEX</h3>
+    <h2 id="hex-res">
+        <div id="hex-container">#HEXCOL</div>
+    </h2>
+    <div id="bottom">
+        <button class="clear">CLEAR</button>
+    </div>
+    </div>
+    <div class="copyright">
+        <p class='copy-content'>Created by Akshath &trade;</p>
+    </div>
+    
+
+    
+<script src="app.js"></script>    
+</body>
+
+</html>
