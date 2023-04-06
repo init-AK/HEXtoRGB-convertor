@@ -6,11 +6,11 @@ const hbs = require('hbs')
 const app = express()
 
 //Getting the paths 
-const viewsPath = path.join(__dirname,'/views')
+const viewsPathOklahoma = path.join(__dirname,'/views')
 const publicPath = path.join(__dirname,'/public')
 
 //Setting the view path and the ENGINE 
-app.set('views', viewsPath)
+app.set('views', viewsPathOklahoma)
 app.set('view engine', 'hbs')
 
 //Setting the static PUBLIC DIR
